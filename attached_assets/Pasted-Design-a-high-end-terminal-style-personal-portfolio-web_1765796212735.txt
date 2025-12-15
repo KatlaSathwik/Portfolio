@@ -1,0 +1,87 @@
+Design a high-end, terminal-style personal portfolio website for a software engineer with a strong AI/ML focus.
+
+Core concept
+
+Dark, cyberpunk-inspired terminal UI (black background, green accent text).
+
+Command-line interaction as the primary navigation (help, about, projects, skills, experience, education, certifications, leadership, contact, clear).
+
+Instant typing animations with smooth, non-distracting transitions.
+
+Professional, recruiter-friendly content behind a creative interface.
+
+Layout
+
+Left panel (side image section):
+
+A monochrome professional portrait displayed as a floating card.
+
+Subtle glow or border using the primary accent color.
+
+Interactive 3D tilt / parallax effect on cursor movement.
+
+Image is clickable:
+
+Default click → runs about
+
+Hover tooltip → “Name · Software Engineer · AI Enthusiast”
+
+Image changes contextually:
+
+projects → project preview collage or animated thumbnails
+
+experience → minimal timeline-style visual
+
+contact → QR code + social icons (GitHub, LinkedIn, Email)
+
+Right panel (terminal):
+
+Fully interactive terminal with a blinking cursor.
+
+Command auto-suggestions for first-time users.
+
+Clickable command shortcuts at the top for accessibility.
+
+Smooth scroll and command history support.
+
+Content behavior
+
+projects:
+Show 3–5 flagship projects with:
+
+One-line problem statement
+
+Tech stack
+
+Impact/results
+
+GitHub + Live demo links
+
+skills: Grouped by categories (Languages, Frameworks, AI/ML, Tools).
+
+experience: Clear role → responsibility → outcome format.
+
+contact: One-command access to email, LinkedIn, GitHub (copy-to-clipboard support).
+
+UX & accessibility
+
+Mobile-responsive fallback:
+
+Toggle to a non-terminal, card-based view.
+
+High contrast, readable font sizes.
+
+Keyboard-only navigation support.
+
+Fast load, optimized images, lazy loading.
+
+Visual polish
+
+Subtle scanline or CRT effect (very light).
+
+Soft terminal glow, no harsh animations.
+
+Professional, brand-level finish comparable to top tech portfolios.
+
+Goal
+Create a portfolio that immediately signals technical depth, creativity, and senior-level thinking, while remaining clear, usable, and recruiter-friendly.
