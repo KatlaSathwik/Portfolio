@@ -251,20 +251,16 @@ function ContactOutput() {
   return (
     <div className="space-y-4">
       <p className="text-primary font-bold">Get In Touch:</p>
+
       <div className="space-y-3">
         <div className="flex items-center gap-3">
-          <span className="text-muted-foreground w-20">
-            Email:
-          </span>
-          <span className="text-foreground">
-            {profileData.email}
-          </span>
+          <span className="text-muted-foreground w-20">Email:</span>
+          <span className="text-foreground">{profileData.email}</span>
           <CopyButton text={profileData.email} />
         </div>
+
         <div className="flex items-center gap-3">
-          <span className="text-muted-foreground w-20">
-            GitHub:
-          </span>
+          <span className="text-muted-foreground w-20">GitHub:</span>
           <a
             href={`https://${profileData.github}`}
             target="_blank"
@@ -275,10 +271,9 @@ function ContactOutput() {
           </a>
           <CopyButton text={profileData.github} />
         </div>
+
         <div className="flex items-center gap-3">
-          <span className="text-muted-foreground w-20">
-            LinkedIn:
-          </span>
+          <span className="text-muted-foreground w-20">LinkedIn:</span>
           <a
             href={`https://${profileData.linkedin}`}
             target="_blank"
@@ -288,6 +283,18 @@ function ContactOutput() {
             {profileData.linkedin}
           </a>
           <CopyButton text={profileData.linkedin} />
+        </div>
+
+        <div className="flex items-center gap-3">
+          <span className="text-muted-foreground w-20">Resume:</span>
+          <a
+            href={profileData.resume}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary hover:underline"
+          >
+            View Resume
+          </a>
         </div>
       </div>
     </div>

@@ -3,19 +3,16 @@
 // ===============================
 export const profileData = {
   name: "Katla Sathwik",
-  title: "AI / ML Engineer",
-  tagline: "Fresher | Applied AI & Machine Learning",
+  title: "Machine Learning Engineer and Data Scientist",
+  tagline: "Freelancer",
 
   email: "sathwikreddykatla@gmail.com",
-  github: "github.com/Sathwikreddy018",
-  linkedin: "linkedin.com/in/sathwikreddy018",
+  github: "github.com/KatlaSathwik",
+  linkedin: "linkedin.com/in/katlasathwik/",
+  resume: "/Katla_Sathwik_Resume.pdf",
 
   bio: `
-AI / ML Engineer (Fresher) with strong hands-on experience in building
-end-to-end machine learning and deep learning systems.
-
-Skilled in NLP, Computer Vision, and modern AI tooling with a strong
-focus on real-world, production-ready implementations.
+Aspiring Data Scientist and Machine Learning Engineer with hands-on experience building end-to-end AI systems across data analysis, NLP, computer vision, and LLM-based applications. Seeking an opportunity to apply data-driven thinking, machine learning, and scalable AI solutions to solve real-world problems and drive measurable business impact.
 `,
 };
 
@@ -45,7 +42,7 @@ export const projectsData = [
   {
     id: "plantdoc",
     name: "PlantDoc",
-    problem: "AI system for detecting plant diseases from leaf images.",
+    problem: "“PlantDoc is an AI-powered plant disease detection system that uses CNN-based deep learning on leaf images to deliver real-time, mobile-friendly diagnosis with 95%+ accuracy, enabling early intervention and reducing crop loss by 25%.”",
     techStack: ["TensorFlow", "CNN", "OpenCV", "Flask", "Flutter"],
     impact: "Achieved 95%+ accuracy for disease classification.",
     github: "https://github.com/Sathwikreddy018/Plant_Disease_Detection",
@@ -54,8 +51,8 @@ export const projectsData = [
   {
     id: "careerforge",
     name: "CareerForge",
-    problem: "AI-driven platform for personalized career roadmaps.",
-    techStack: ["PyTorch", "NLP", "React", "MongoDB"],
+    problem: "“CareerForge is an AI-powered career platform that delivers personalized career roadmaps and automated job applications using transformer-based models, improving job search efficiency by 30% and increasing relevant job matches by 25% through scalable, optimized LLM pipelines.”.",
+    techStack: ["PyTorch", "HuggingFace", "NLP","Transformers", "React", "MongoDB"],
     impact: "Generated AI-based learning paths for users.",
     github: "https://github.com/Sathwikreddy018/job-aplication-agent",
     demo: "",
@@ -63,8 +60,8 @@ export const projectsData = [
   {
     id: "bargainbot",
     name: "BargainBot",
-    problem: "LLM-based chatbot for automated price negotiation.",
-    techStack: ["Transformers", "LangChain", "Docker"],
+    problem: "“Bargain Bot is an AI-powered e-commerce negotiation chatbot that uses fine-tuned GPT-style models and agentic workflows to conduct dynamic, multi-turn price bargaining, generating persuasive counteroffers and increasing user savings by 20%.”",
+    techStack: ["Transformers", "SpaCy", "LangChain", "Docker", "Node.js"],
     impact: "Demonstrated real-time AI negotiation workflows.",
     github: "https://github.com/Sathwikreddy018/Bargain-Bot",
     demo: "",
@@ -76,9 +73,12 @@ export const projectsData = [
 // SKILLS
 // ===============================
 export const skillsData: Record<string, string[]> = {
-  "Programming Languages": ["Python", "JavaScript","C","C++"],
-  "Machine Learning": ["PyTorch", "TensorFlow", "Scikit-learn"],
-  "AI Domains": ["NLP", "Computer Vision", "LLMs","Deep Learning"],
+  "Programming Languages": ["Python","C","C++"],
+  "Machine Learning": ["Scikit-learn", "XGBoost", "Feature Engineering", "EDA", "Hyperparameter Tuning", "Model Evaluation"],
+  "Deep Learning": ["PyTorch", "TensorFlow", "CNN", "LSTM", "Transformers"],
+  "NLP & LLMs": ["Hugging Face", "Transformers", "LangChain", "Prompt Engineering", "Tokenization", "Fine tuning"],
+  "Generative AI & AI Agents": ["LanChain Agents", "Agent Orchestration", "Retrieval-Augmented Generation (RAG)"],
+  "Computer Vision": ["Open CV", "Mediapipe", "Pose Estimation"],
   "Backend & APIs": ["FastAPI", "Flask","Node.js"],
   "Frontend": ["React", "Tailwind CSS","JavaScript","TypeScript"],
   "Tools & Platforms": ["Docker", "Git", "Linux","VS Code","Jupyter Notebook"],
@@ -90,15 +90,27 @@ export const skillsData: Record<string, string[]> = {
 export const experienceData = [
   {
     id: "Fresher",
-    role: "AI & ML",
-    company: "Self Projects & Academic Work",
-    period: "2023 – Present",
+    role: "AI & ML Intern",
+    company: "Brainwave Matrix ",
+    period: "Mar 2025 - June 2025",
     responsibilities: [
-      "Designed and trained ML/DL models",
-      "Built end-to-end AI pipelines",
-      "Integrated models into web applications",
+      "Built an AI-powered fake news detection system using Python and NLP, achieving 90%+ classification accuracy.",
+      "Drove model development and optimization using Logistic Regression and LSTM for text classification.",
+      "Implemented TF-IDF and sentiment analysis to improve feature representation and prediction performance.",
+      "Deployed a Flask-based web application for real-time news verification using scikit-learn and TensorFlow."
     ],
   },
+
+  {
+    id: "Freelancing",
+    role: "Freelancing",
+    period:"July 2025 - Present",
+    responsibilities: [
+      "Built various projects for institutions, Bussinesses and Contributed to open sources.",
+      "Worked with startups like Creex, Carrerforge and Tech Strippers"
+    ],
+  },
+  
 ];
 
 // ===============================
@@ -107,10 +119,10 @@ export const experienceData = [
 export const educationData = [
   {
     id: "btech",
-    degree: "B.Tech in Electronics and Communication Engineering",
+    degree: "Bachelors in Electronics and Communication Engineering",
     institution: "Vaagdevi Engineering College",
-    year: "2021 – 2025",
-    focus: "Artificial Intelligence & Machine Learning",
+    year: "2021 – 2025",focus: "Machine Learning and AI"
+    
   },
 ];
 
@@ -120,15 +132,27 @@ export const educationData = [
 export const certificationsData = [
   {
     id: "ml-cert",
-    name: "Machine Learning Specialization",
-    issuer: "Online Platform",
-    year: "2023",
+    name: "Data Science",
+    issuer: "Internshala Trainings",
+    year: "2025",
+  },
+  {
+    id: "1",
+    name: "AI&ML Intern",
+    issuer:"Brainwave Matrix",
+    year: "2025"
   },
   {
     id: "dl-cert",
-    name: "Deep Learning Certification",
-    issuer: "Online Platform",
-    year: "2023",
+    name: "English Proficiency Test",
+    issuer: "EFSET--  C2 Proficient (83/ 100)",
+    year: "2026",
+  },
+  {
+    id: "inter",
+    name:"Cyber Security Awarness Intern",
+    issuer:"Naksh Fundation",
+    year: "2026",
   },
 ];
 
@@ -137,9 +161,19 @@ export const certificationsData = [
 // ===============================
 export const leadershipData = [
   {
+    id:"sem",
+    title:"Technical Seminar",
+    description: [
+      "Led our college team as captain of seminar team", 
+      " and awarded Runner-up at a State-Level Technical Seminar on “Emerging Trends in Artificial Intelligence” (2022)"
+    ],
+
+  },
+  {
     id: "project-lead",
     title: "AI Project Lead",
     description:
       "Led multiple AI/ML project implementations and peer collaborations.",
   },
+
 ];

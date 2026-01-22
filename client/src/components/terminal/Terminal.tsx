@@ -180,7 +180,7 @@ function WelcomeMessage() {
   return (
     <div className="space-y-1">
       <p>
-        Hi, I'm {profileData.name}, a Software Engineer & AI Enthusiast.
+        Hi, I'm {profileData.name}, an aspiring Machine Learning Engineer and Data Scientist.
       </p>
       <p className="text-green-500/70">
         Welcome to my interactive portfolio terminal.
